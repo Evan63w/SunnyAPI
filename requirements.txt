@@ -9,4 +9,4 @@ MarkupSafe==2.1.2
 platformdirs==3.5.1
 pyodbc==4.0.39
 virtualenv==20.23.0
-Werkzeug==2.3.4
+Werkzeug==2.2.3

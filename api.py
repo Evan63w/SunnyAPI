@@ -1,10 +1,6 @@
 from flask import Flask, jsonify
 import pyodbc
 
-var express = require('express')
-var cors = require('cors')
-var app = express()
-
 app = Flask(__name__)
 
 # Database configuration for Azure SQL Database
@@ -15,7 +11,7 @@ password = 'password1!'
 driver = '{ODBC Driver 18 for SQL Server}'
 
 # API route to get data from the database
-@app.route('/data', cors(),methods=['GET'])
+@app.route('/data',methods=['GET'])
 def get_data():
     try:
         # Establish a connection to the Azure SQL Database
